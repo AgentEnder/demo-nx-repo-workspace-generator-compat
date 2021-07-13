@@ -1,0 +1,29 @@
+{
+  "root": "apps/ng-e2e",
+  "sourceRoot": "apps/ng-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/ng-e2e/cypress.json",
+        "tsConfig": "apps/ng-e2e/tsconfig.e2e.json",
+        "devServerTarget": "ng:serve:development"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "ng:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["apps/ng-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "configFilePath": "apps\\ng-e2e/project.json",
+  "tags": [],
+  "implicitDependencies": ["ng"]
+}
