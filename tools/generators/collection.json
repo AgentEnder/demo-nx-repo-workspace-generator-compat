@@ -1,0 +1,8 @@
+{
+    "schematics": {
+        "copy": {
+          "description": "Copy file `from` to `to`",
+          "factory": "./ng-style/index#copyFileSchematic"
+        }
+      }
+}
