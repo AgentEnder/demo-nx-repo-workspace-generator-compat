@@ -86,6 +86,5 @@
       "executor": "@jscutlery/semver:version"
     }
   },
-  "configFilePath": "apps\\ng/project.json",
   "tags": []
 }

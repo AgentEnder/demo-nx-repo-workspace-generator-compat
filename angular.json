@@ -1,8 +1,14 @@
 {
   "version": 2,
   "projects": {
-    "ng": "apps\\ng",
-    "ng-e2e": "apps\\ng-e2e"
+    "ng": "apps/ng",
+    "ng-e2e": "apps/ng-e2e",
+    "shared-components-test": "libs/shared/components/test",
+    "shared-components-test2": "libs/shared/components/test2",
+    "shared-components-test3": "libs/shared/components/test3",
+    "shared-components-test4": "libs/shared/components/test4",
+    "shared-components-test5": "libs/shared/components/test5",
+    "shared-components-test6": "libs\\shared\\components\\test6"
   },
   "cli": {
     "defaultCollection": "@nrwl/angular"

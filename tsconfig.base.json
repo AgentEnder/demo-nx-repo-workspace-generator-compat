@@ -14,7 +14,26 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@test/shared/components/test": [
+        "libs/shared/components/test/src/index.ts"
+      ],
+      "@test/shared/components/test2": [
+        "libs/shared/components/test2/src/index.ts"
+      ],
+      "@test/shared/components/test3": [
+        "libs/shared/components/test3/src/index.ts"
+      ],
+      "@test/shared/components/test4": [
+        "libs/shared/components/test4/src/index.ts"
+      ],
+      "@test/shared/components/test5": [
+        "libs/shared/components/test5/src/index.ts"
+      ],
+      "@test/shared/components/test6": [
+        "libs/shared/components/test6/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

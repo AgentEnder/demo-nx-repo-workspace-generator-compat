@@ -23,7 +23,6 @@
       }
     }
   },
-  "configFilePath": "apps\\ng-e2e/project.json",
   "tags": [],
   "implicitDependencies": ["ng"]
 }

@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/shared/components/test6",
+  "sourceRoot": "libs/shared/components/test6/src",
+  "prefix": "test",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/shared/components/test6"],
+      "options": {
+        "jestConfig": "libs/shared/components/test6/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/shared/components/test6/src/**/*.ts",
+          "libs/shared/components/test6/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
